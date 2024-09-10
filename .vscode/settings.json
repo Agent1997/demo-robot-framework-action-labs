@@ -1,0 +1,9 @@
+{
+    "robot.language-server.python": "C:\\Me\\portfolio\\demo-robot-framework-action-labs\\.venv\\Scripts\\python.exe",
+    "robot.pythonpath": [
+        "C://Me//portfolio//demo-robot-framework-action-labs//.venv//Scripts//python.exe"
+    ],
+    "terminal.integrated.env.windows": {
+        "python": "C://Me//portfolio//demo-robot-framework-action-labs//.venv//Scripts//python.exe"
+    }
+}
