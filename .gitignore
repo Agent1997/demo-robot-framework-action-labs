@@ -1,6 +1,7 @@
 .venv
 log.html
 output.html
+output.xml
 report.html
 output.html
 selenium-screenshot*

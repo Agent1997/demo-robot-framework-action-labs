@@ -1,0 +1,1 @@
+PRODUCTS_PAGE_LABEL = "xpath://div[@class='product_label' and text() = 'Products']"
