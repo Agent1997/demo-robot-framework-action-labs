@@ -5,3 +5,4 @@ output.xml
 report.html
 output.html
 selenium-screenshot*
+__pycache__/
