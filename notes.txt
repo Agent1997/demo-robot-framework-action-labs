@@ -1,0 +1,6 @@
+# Run test data
+robot .\tests-using-existing-robot-libs\tests
+
+# Create test documentation
+ python -m robot.testdoc .\tests-using-existing-robot-libs\tests .\tests-using-existing-robot-libs\docs\test-doc.html
+
