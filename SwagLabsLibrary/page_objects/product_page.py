@@ -10,5 +10,6 @@ class ProductsPage:
         
     @keyword
     def user_should_be_in_the_product_page(self):
+        """This checks if current page is the Products page by checking the page label."""
         self.__selenium_library.wait_until_element_is_visible(locator=products_page_locators.PRODUCTS_PAGE_LABEL, error="Products page label is not visible.")
     

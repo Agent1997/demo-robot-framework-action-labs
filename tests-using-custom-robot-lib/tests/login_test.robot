@@ -1,7 +1,5 @@
 *** Settings ***
-Resource        ../keywords/login_page.resource
-Resource        ../keywords/browser.resource
-Resource        ../keywords/products_page.resource
+Library         SwagLabsLibrary
 Test Setup      Open SwagLabs in Chrome Browser
 Test Teardown   Close SwagLabs  
 Documentation    This test suite verifies that user with valid credentials can login to SwagLabs and user with invalid credentials cannot

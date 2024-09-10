@@ -19,7 +19,7 @@ User Login To SwagLabs
     Click Button                             locator=${login_btn_locator}
 
 
-Users should see that login error message is
+User should see that login error message is
     [Documentation]            This checks the error message displayed in the login page if a user attempts to login using an invalid credential
     [Arguments]                            ${exp_err_msg}
     Wait Until Element Is Visible          locator=${login_err_msg_locator}

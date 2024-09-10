@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import List
-import SeleniumLibrary
+from SeleniumLibrary import SeleniumLibrary
 from robotlibcore import DynamicCore
 from robot.api.deco import library
 from SwagLabsLibrary.page_objects.browser import Browser
@@ -18,7 +18,7 @@ class SwagLabsLibrary(DynamicCore):
     """
 
     def __init__(self) -> None:
-        self.__selenium_library = SeleniumLibrary(screenshot_root_director='EMBED')
+        self.__selenium_library = SeleniumLibrary(screenshot_root_directory='EMBED')
         components = [
             Browser(selenium_library=self.__selenium_library),
             LoginPage(selenium_library=self.__selenium_library),

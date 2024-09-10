@@ -4,3 +4,8 @@ robot .\tests-using-existing-robot-libs\tests
 # Create test documentation
  python -m robot.testdoc .\tests-using-existing-robot-libs\tests .\tests-using-existing-robot-libs\docs\test-doc.html
 
+# Run test using SwagLabsLibrary
+robot --pythonpath="C:\Me\portfolio\demo-robot-framework-action-labs"  .\tests-using-custom-robot-lib\tests
+
+# Generate library documentation
+libdoc --pythonpath="C:\Me\portfolio\demo-robot-framework-action-labs"  SwagLabsLibrary    .\tests-using-custom-robot-lib\docs\SwagLabsLibrary.html 
